@@ -9,7 +9,7 @@ import utilities.DataProviders;
 
 public class Tc_002_LoginPage extends BaseClass {
 
-    @Test(dataProvider ="LoginData", dataProviderClass = DataProviders.class, groups = {"Regression"})
+    @Test(dataProvider ="LoginData", dataProviderClass = DataProviders.class, groups = {"Regression" ,"WithDataProvider"})
     public void testLoginFunctionality(String mailId, String password, String expectedOutcome) throws Exception {
         logger.info("Starting Login Test");
 
@@ -17,7 +17,6 @@ public class Tc_002_LoginPage extends BaseClass {
         HomePage homePage = new HomePage(driver);
         LoginPage loginPage = new LoginPage(driver);
         MyAccountPage accountPage = new MyAccountPage(driver);
-        
         // Navigate and perform login
         homePage.clickMyAccount();
         Thread.sleep(2000);

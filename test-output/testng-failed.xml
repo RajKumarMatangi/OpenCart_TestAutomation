@@ -1,33 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Failed suite [Suite]]" guice-stage="DEVELOPMENT">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <parameter name="os" value="Windows"/>
   <parameter name="Browser" value="chrome"/>
-  <listeners>
-    <listener class-name="utilities.ExtentReportGeneration"/>
-  </listeners>
-  <test thread-count="5" name="ChromeTest(failed)(failed)">
-    <groups>
-      <run>
-        <include name="sanity"/>
-        <include name="Regression"/>
-      </run>
-    </groups>
+  <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testcases.Tc_001_AccountRegistration">
+      <class name="testcases.Tc_003_Account_Registration_DP">
         <methods>
           <include name="close"/>
-          <include name="setup"/>
-          <include name="test"/>
-        </methods>
-      </class> <!-- testcases.Tc_001_AccountRegistration -->
-      <class name="testcases.Tc_002_LoginPage">
-        <methods>
-          <include name="testLoginFunctionality" invocation-numbers="0 1 2 3 4 5 7 8"/>
-          <include name="close"/>
+          <include name="test" invocation-numbers="0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testcases.Tc_002_LoginPage -->
+      </class> <!-- testcases.Tc_003_Account_Registration_DP -->
     </classes>
-  </test> <!-- ChromeTest(failed)(failed) -->
-</suite> <!-- Failed suite [Failed suite [Suite]] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

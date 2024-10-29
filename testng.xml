@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <parameter name="Browser" value="chrome"/>
+    <parameter name="os" value="Windows"/>
+    <!--<groups>
+        <run>
+            <include name="WithDataProvider"/>
+        </run>
+    </groups>-->
+    <test thread-count="5" name="Test">
+        <classes>
+            <class name="testcases.Tc_003_Account_Registration_DP"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,5 +1,6 @@
 package testcases;
 
+import org.apache.commons.lang3.RandomStringUtils;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -14,12 +15,13 @@ public class Tc_001_AccountRegistration extends BaseClass{
 		obj.clickMyAccount();
 		obj.clickRegister();
 		AccountRegistrationPage obj1 = new AccountRegistrationPage(driver);
-		obj1.setFirstName("hello000");
-		obj1.setLastName("raju00000");
-		obj1.setEmail("abc1234567812345678@gmail.com");
-		obj1.setTelephone("1234567890");
-		obj1.setPwd("987654321");
-		obj1.confirmPwd("987654321");
+		obj1.setFirstName(randomString().toLowerCase());
+		obj1.setLastName(randomString().toUpperCase());
+		obj1.setEmail(randomString()+"@gmail.com");
+		obj1.setTelephone(randomPhoneno());
+		String pwd = randomPassword();
+		obj1.setPwd(pwd);
+		obj1.confirmPwd(pwd);
 		obj1.clickPrivacy();
 		obj1.continuebtn();
 		String confirmtext = obj1.checkConfirmMsg();
@@ -29,10 +31,23 @@ public class Tc_001_AccountRegistration extends BaseClass{
 		}
 		else {
 			Assert.assertTrue(false);
+		}	   
+			
 		}
-		}
-	
-	
+	public String  randomString() {
+		String name = RandomStringUtils.randomAlphabetic(5);
+		return name;
 	}
+	public String randomPhoneno() {
+		String phone = RandomStringUtils.randomNumeric(10);
+		return phone;
+	}
+	
+	public String randomPassword() {
+		String password = RandomStringUtils.randomAlphanumeric(8);
+		return password;
+	}
+		}
+	
 
 

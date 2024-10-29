@@ -8,6 +8,7 @@ import java.time.Duration;
 import java.util.Date;
 import java.util.Properties;
 
+import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
@@ -26,11 +27,11 @@ import org.testng.annotations.Parameters;
 import java.net.URL;
 
 public class BaseClass {
-    public static  WebDriver driver;
+    public  static  WebDriver driver;
     public Logger logger;
     public Properties prop;
 
-    @BeforeClass(groups = {"sanity", "Regression"})
+    @BeforeClass(groups = {"sanity", "Regression" , "WithDataProvider"})
     @Parameters({"os", "Browser"})
     void setup(String os, String br) throws IOException {
         // Loading Properties file
@@ -102,7 +103,7 @@ public class BaseClass {
         driver.manage().window().maximize();
     }
 
-    @AfterClass(groups = {"sanity", "Regression"})
+    @AfterClass(groups = {"sanity", "Regression" ,"WithDataProvider"})
     public void close() {
         if (driver != null) {
             driver.quit();
@@ -121,4 +122,17 @@ public class BaseClass {
         sourceFile.renameTo(targetFile);
         return targetFilepath;
     }
+    public String  randomString() {
+		String name = RandomStringUtils.randomAlphabetic(5);
+		return name;
+	}
+	public String randomPhoneno() {
+		String phone = RandomStringUtils.randomNumeric(10);
+		return phone;
+	}
+	
+	public String randomPassword() {
+		String password = RandomStringUtils.randomAlphanumeric(8);
+		return password;
+	}
 }

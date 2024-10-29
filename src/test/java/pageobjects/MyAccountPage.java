@@ -15,7 +15,7 @@ public class MyAccountPage extends BasePage {
    @FindBy(xpath="//a[@class='list-group-item' and text()='Logout']") WebElement logoutbtn;
    
    //Actions
-   public String   getText() {
+   public String getText() {
 	   
 	   return myaccounttxt.getText();
    }
