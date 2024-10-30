@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-30T12:35:15 IST" name="Suite" finished-at="2024-10-30T12:35:21 IST" duration-ms="6429">
+  <suite started-at="2024-10-30T21:19:32 IST" name="Suite" finished-at="2024-10-30T21:19:41 IST" duration-ms="8765">
     <groups>
     </groups>
-    <test started-at="2024-10-30T12:35:15 IST" name="Test" finished-at="2024-10-30T12:35:21 IST" duration-ms="6429">
-      <class name="testcases.Tc_004_SearchBox_Functionality">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testcases.Tc_004_SearchBox_Functionality@285c08c8]" started-at="2024-10-30T12:35:15 IST" name="setup" finished-at="2024-10-30T12:35:18 IST" duration-ms="3092" status="PASS">
+    <test started-at="2024-10-30T21:19:32 IST" name="Test" finished-at="2024-10-30T21:19:41 IST" duration-ms="8765">
+      <class name="testcases.Tc_005_Header">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testcases.Tc_005_Header@285c08c8]" started-at="2024-10-30T21:19:32 IST" name="setup" finished-at="2024-10-30T21:19:36 IST" duration-ms="3512" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,15 +23,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test()[pri:0, instance:testcases.Tc_004_SearchBox_Functionality@285c08c8]" started-at="2024-10-30T12:35:18 IST" name="test" finished-at="2024-10-30T12:35:21 IST" duration-ms="2953" status="PASS">
+        <test-method signature="test()[pri:0, instance:testcases.Tc_005_Header@285c08c8]" started-at="2024-10-30T21:19:36 IST" name="test" finished-at="2024-10-30T21:19:41 IST" duration-ms="4898" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="close()[pri:0, instance:testcases.Tc_004_SearchBox_Functionality@285c08c8]" started-at="2024-10-30T12:35:21 IST" name="close" finished-at="2024-10-30T12:35:21 IST" duration-ms="322" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.Tc_005_Header@285c08c8]" started-at="2024-10-30T21:19:41 IST" name="close" finished-at="2024-10-30T21:19:41 IST" duration-ms="293" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- testcases.Tc_004_SearchBox_Functionality -->
+      </class> <!-- testcases.Tc_005_Header -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -10,6 +10,8 @@ public class SearchPage extends BasePage {
 	}
    
 	@FindBy(xpath="//a[.='MacBook']") WebElement macbook;
+	@FindBy(xpath="//img[@src='https://tutorialsninja.com/demo/image/cache/catalog/demo/imac_3-74x74.jpg']") WebElement macImage;
+	   
 	
 	public  String confirmProduct() {
 		
@@ -17,4 +19,10 @@ public class SearchPage extends BasePage {
 		return textcnfrm;
 		
 	}
+	 public boolean macImageVisible() {
+		   boolean img_status = macImage.isDisplayed();
+		   return img_status;
+	   }
+
+	
 }

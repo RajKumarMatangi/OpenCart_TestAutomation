@@ -1,27 +1,9 @@
-12:31:04.234 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:31:04.244 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:31:04.245 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:31:04.246 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
-12:31:04.248 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:31:04.249 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
-12:31:04.258 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-12:31:04.258 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-12:31:04.273 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\M Raj Kumar\AppData\Local\Temp\testng-eclipse-2067084148\testng-customsuite.xml
+21:11:50.185 [main] INFO  testcases.Tc_002_LoginPage - Starting Login Test
+21:12:50.859 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\M Raj Kumar\eclipse-workspace\Opencart_Ecommerce_Project\testing.xml"
+21:12:51.334 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\M Raj Kumar\eclipse-workspace\Opencart_Ecommerce_Project\testing.xml
 
-12:31:04.302 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 6 ms.
-12:31:04.560 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@66971f6b: 101 ms
-12:31:04.581 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@22c86919: 21 ms
-12:31:04.599 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@302fec27: 16 ms
-12:31:04.611 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@29876704: 12 ms
-12:31:04.620 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@307765b4: 9 ms
-12:31:04.621 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@4a9e6faf: 0 ms
-12:32:53.039 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\M Raj Kumar\eclipse-workspace\Opencart_Ecommerce_Project\testng.xml"
-12:33:49.349 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\M Raj Kumar\eclipse-workspace\Opencart_Ecommerce_Project\testng.xml"
-12:33:49.836 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\M Raj Kumar\eclipse-workspace\Opencart_Ecommerce_Project\testng.xml
-
-12:35:14.732 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\M Raj Kumar\eclipse-workspace\Opencart_Ecommerce_Project\testng.xml"
-12:35:15.212 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\M Raj Kumar\eclipse-workspace\Opencart_Ecommerce_Project\testng.xml
+21:19:32.082 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\M Raj Kumar\eclipse-workspace\Opencart_Ecommerce_Project\testing.xml"
+21:19:32.579 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\M Raj Kumar\eclipse-workspace\Opencart_Ecommerce_Project\testing.xml
 

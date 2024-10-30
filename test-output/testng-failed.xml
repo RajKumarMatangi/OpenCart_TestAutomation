@@ -5,13 +5,13 @@
   <parameter name="Browser" value="chrome"/>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testcases.Tc_004_SearchBox_Functionality">
+      <class name="testcases.Tc_005_Header">
         <methods>
-          <include name="close"/>
           <include name="test"/>
+          <include name="close"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testcases.Tc_004_SearchBox_Functionality -->
+      </class> <!-- testcases.Tc_005_Header -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
