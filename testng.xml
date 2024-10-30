@@ -10,7 +10,7 @@
     </groups>-->
     <test thread-count="5" name="Test">
         <classes>
-            <class name="testcases.Tc_003_Account_Registration_DP"/>
+            <class name="testcases.Tc_004_SearchBox_Functionality"/>
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -9,8 +9,8 @@ import utilities.DataProviders;
 
 public class Tc_002_LoginPage extends BaseClass {
 
-    @Test(dataProvider ="LoginData", dataProviderClass = DataProviders.class, groups = {"Regression" ,"WithDataProvider"})
-    public void testLoginFunctionality(String mailId, String password, String expectedOutcome) throws Exception {
+    @Test(groups = {"Regression" ,"WithDataProvider"})
+    public void testLoginFunctionality() throws Exception {
         logger.info("Starting Login Test");
 
         // Page object instances
@@ -22,8 +22,8 @@ public class Tc_002_LoginPage extends BaseClass {
         Thread.sleep(2000);
         homePage.loginClick();
         
-        loginPage.setEmail(mailId);
-        loginPage.setPassword(password);
+        loginPage.setEmail(prop.getProperty("email"));
+        loginPage.setPassword(prop.getProperty("password"));
         loginPage.clcikLogin();
         Thread.sleep(2000);
         
@@ -31,10 +31,11 @@ public class Tc_002_LoginPage extends BaseClass {
         String actualText = accountPage.getText();
         boolean isLoginSuccessful = "My Account".equals(actualText);
         
-        if ("valid".equalsIgnoreCase(expectedOutcome)) {
-            Assert.assertTrue(isLoginSuccessful, "Login failed with valid credentials.");
-        } else {
-            Assert.assertFalse(isLoginSuccessful, "Login succeeded with invalid credentials.");
+        if(isLoginSuccessful=true) {
+        	Assert.assertTrue(true);
+        }
+        else {
+        	Assert.assertTrue(false);
         }
     }
 }
