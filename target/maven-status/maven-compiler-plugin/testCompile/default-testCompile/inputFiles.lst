@@ -3,9 +3,13 @@ C:\Users\M Raj Kumar\eclipse-workspace\Opencart_Ecommerce_Project\src\test\java\
 C:\Users\M Raj Kumar\eclipse-workspace\Opencart_Ecommerce_Project\src\test\java\pageobjects\HomePage.java
 C:\Users\M Raj Kumar\eclipse-workspace\Opencart_Ecommerce_Project\src\test\java\pageobjects\LoginPage.java
 C:\Users\M Raj Kumar\eclipse-workspace\Opencart_Ecommerce_Project\src\test\java\pageobjects\MyAccountPage.java
+C:\Users\M Raj Kumar\eclipse-workspace\Opencart_Ecommerce_Project\src\test\java\pageobjects\SearchPage.java
 C:\Users\M Raj Kumar\eclipse-workspace\Opencart_Ecommerce_Project\src\test\java\testcases\BaseClass.java
 C:\Users\M Raj Kumar\eclipse-workspace\Opencart_Ecommerce_Project\src\test\java\testcases\Tc_001_AccountRegistration.java
 C:\Users\M Raj Kumar\eclipse-workspace\Opencart_Ecommerce_Project\src\test\java\testcases\Tc_002_LoginPage.java
+C:\Users\M Raj Kumar\eclipse-workspace\Opencart_Ecommerce_Project\src\test\java\testcases\Tc_003_Account_Registration_DP.java
+C:\Users\M Raj Kumar\eclipse-workspace\Opencart_Ecommerce_Project\src\test\java\testcases\Tc_004_SearchBox_Functionality.java
+C:\Users\M Raj Kumar\eclipse-workspace\Opencart_Ecommerce_Project\src\test\java\testcases\Tc_005_Header.java
 C:\Users\M Raj Kumar\eclipse-workspace\Opencart_Ecommerce_Project\src\test\java\utilities\DataProviders.java
 C:\Users\M Raj Kumar\eclipse-workspace\Opencart_Ecommerce_Project\src\test\java\utilities\Excelutility.java
 C:\Users\M Raj Kumar\eclipse-workspace\Opencart_Ecommerce_Project\src\test\java\utilities\ExtentReportGeneration.java
