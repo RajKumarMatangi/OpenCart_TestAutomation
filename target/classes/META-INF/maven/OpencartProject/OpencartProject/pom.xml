@@ -106,5 +106,10 @@
             <artifactId>extentreports</artifactId>
             <version>5.1.2</version>
         </dependency>
+        <dependency>
+        	<groupId>SeleniumWebDriver</groupId>
+        	<artifactId>SeleniumWebDriver</artifactId>
+        	<version>0.0.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 </project>

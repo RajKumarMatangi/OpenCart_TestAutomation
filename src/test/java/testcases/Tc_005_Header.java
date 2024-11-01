@@ -1,7 +1,7 @@
 package testcases;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
-import junit.framework.Assert;
 import pageobjects.HomePage;
 import pageobjects.LoginPage;
 import pageobjects.MyAccountPage;
