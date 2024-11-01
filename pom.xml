@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" 
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    
+
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>OpencartProject</groupId>
@@ -18,21 +18,18 @@
   
     <build>
         <plugins>
-            <!-- Latest stable version of the Maven Compiler Plugin -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.13.0</version> <!-- Latest stable version -->
+                <version>3.13.0</version>
             </plugin>
-
-            <!-- Maven Surefire Plugin for running tests -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.2.2</version> <!-- Latest stable version -->
+                <version>3.2.2</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>master.xml</suiteXmlFile> <!-- Adjust path if needed -->
+                        <suiteXmlFile>master.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
@@ -40,22 +37,17 @@
     </build>
 
     <dependencies>
-        <!-- Remove JUnit if not using -->
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>7.10.2</version>
             <scope>test</scope>
         </dependency>
-        
-        <!-- Selenium Java Dependency -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
             <version>4.25.0</version>
         </dependency>
-        
-        <!-- Apache POI Dependencies -->
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi</artifactId>
@@ -66,8 +58,6 @@
             <artifactId>poi-ooxml</artifactId>
             <version>5.3.0</version>
         </dependency>
-        
-        <!-- Log4j Dependencies -->
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-core</artifactId>
@@ -78,38 +68,25 @@
             <artifactId>log4j-api</artifactId>
             <version>2.24.1</version>
         </dependency>
-        
-        <!-- SLF4J Binding for Log4j -->
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-slf4j-impl</artifactId>
             <version>2.24.1</version>
         </dependency>
-        
-        <!-- Commons IO -->
         <dependency>
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
             <version>2.17.0</version>
         </dependency>
-        
-        <!-- Commons Lang -->
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
             <version>3.17.0</version>
         </dependency>
-
-        <!-- Extent Reports Dependency -->
         <dependency>
             <groupId>com.aventstack</groupId>
             <artifactId>extentreports</artifactId>
             <version>5.1.2</version>
-        </dependency>
-        <dependency>
-        	<groupId>SeleniumWebDriver</groupId>
-        	<artifactId>SeleniumWebDriver</artifactId>
-        	<version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
 </project>
