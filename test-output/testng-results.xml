@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-30T21:19:32 IST" name="Suite" finished-at="2024-10-30T21:19:41 IST" duration-ms="8765">
+  <suite started-at="2025-01-20T09:53:55 IST" name="Suite" finished-at="2025-01-20T09:54:10 IST" duration-ms="15014">
     <groups>
+      <group name="WithDataProvider">
+        <method signature="Tc_002_LoginPage.testLoginFunctionality()[pri:0, instance:testcases.Tc_002_LoginPage@1e1d3956]" name="testLoginFunctionality" class="testcases.Tc_002_LoginPage"/>
+      </group> <!-- WithDataProvider -->
+      <group name="Regression">
+        <method signature="Tc_002_LoginPage.testLoginFunctionality()[pri:0, instance:testcases.Tc_002_LoginPage@1e1d3956]" name="testLoginFunctionality" class="testcases.Tc_002_LoginPage"/>
+      </group> <!-- Regression -->
+      <group name="sanity">
+        <method signature="Tc_001_AccountRegistration.test()[pri:0, instance:testcases.Tc_001_AccountRegistration@1eb6749b]" name="test" class="testcases.Tc_001_AccountRegistration"/>
+      </group> <!-- sanity -->
     </groups>
-    <test started-at="2024-10-30T21:19:32 IST" name="Test" finished-at="2024-10-30T21:19:41 IST" duration-ms="8765">
-      <class name="testcases.Tc_005_Header">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testcases.Tc_005_Header@285c08c8]" started-at="2024-10-30T21:19:32 IST" name="setup" finished-at="2024-10-30T21:19:36 IST" duration-ms="3512" status="PASS">
+    <test started-at="2025-01-20T09:53:55 IST" name="ChromeTest" finished-at="2025-01-20T09:54:10 IST" duration-ms="15014">
+      <class name="testcases.Tc_002_LoginPage">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testcases.Tc_002_LoginPage@1e1d3956]" started-at="2025-01-20T09:54:03 IST" name="setup" finished-at="2025-01-20T09:54:04 IST" duration-ms="1512" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,15 +32,41 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test()[pri:0, instance:testcases.Tc_005_Header@285c08c8]" started-at="2024-10-30T21:19:36 IST" name="test" finished-at="2024-10-30T21:19:41 IST" duration-ms="4898" status="PASS">
+        <test-method signature="testLoginFunctionality()[pri:0, instance:testcases.Tc_002_LoginPage@1e1d3956]" started-at="2025-01-20T09:54:04 IST" name="testLoginFunctionality" finished-at="2025-01-20T09:54:09 IST" duration-ms="5186" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-        <test-method is-config="true" signature="close()[pri:0, instance:testcases.Tc_005_Header@285c08c8]" started-at="2024-10-30T21:19:41 IST" name="close" finished-at="2024-10-30T21:19:41 IST" duration-ms="293" status="PASS">
+        </test-method> <!-- testLoginFunctionality -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.Tc_002_LoginPage@1e1d3956]" started-at="2025-01-20T09:54:09 IST" name="close" finished-at="2025-01-20T09:54:10 IST" duration-ms="117" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- testcases.Tc_005_Header -->
-    </test> <!-- Test -->
+      </class> <!-- testcases.Tc_002_LoginPage -->
+      <class name="testcases.Tc_001_AccountRegistration">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testcases.Tc_001_AccountRegistration@1eb6749b]" started-at="2025-01-20T09:53:55 IST" name="setup" finished-at="2025-01-20T09:53:58 IST" duration-ms="3216" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test()[pri:0, instance:testcases.Tc_001_AccountRegistration@1eb6749b]" started-at="2025-01-20T09:53:58 IST" name="test" finished-at="2025-01-20T09:54:03 IST" duration-ms="4489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.Tc_001_AccountRegistration@1eb6749b]" started-at="2025-01-20T09:54:03 IST" name="close" finished-at="2025-01-20T09:54:03 IST" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testcases.Tc_001_AccountRegistration -->
+    </test> <!-- ChromeTest -->
   </suite> <!-- Suite -->
 </testng-results>
