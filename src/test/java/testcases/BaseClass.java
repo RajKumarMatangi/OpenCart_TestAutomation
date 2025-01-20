@@ -31,7 +31,7 @@ public class BaseClass {
     public Logger logger;
     public Properties prop;
 
-    @BeforeClass(groups = {"sanity", "Regression" , "WithDataProvider"})
+    @BeforeClass(groups = {"sanity", "Regression" , "WithDataProvider" , "AddTocart"})
     @Parameters({"os", "Browser"})
     void setup(String os, String br) throws IOException {
         // Loading Properties file
@@ -103,7 +103,7 @@ public class BaseClass {
         driver.manage().window().maximize();
     }
 
-    @AfterClass(groups = {"sanity", "Regression" ,"WithDataProvider"})
+    @AfterClass(groups = {"sanity", "Regression" ,"WithDataProvider","AddTocart"})
     public void close() {
         if (driver != null) {
             driver.quit();

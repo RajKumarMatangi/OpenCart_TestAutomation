@@ -4,14 +4,19 @@
   <parameter name="os" value="Windows"/>
   <parameter name="Browser" value="chrome"/>
   <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="AddTocart"/>
+      </run>
+    </groups>
     <classes>
-      <class name="testcases.Tc_005_Header">
+      <class name="testcases.Tc_006_AddToCart">
         <methods>
-          <include name="test"/>
+          <include name="testAddtoCartFunctionalitywithoutLogin"/>
           <include name="close"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testcases.Tc_005_Header -->
+      </class> <!-- testcases.Tc_006_AddToCart -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -1,5 +1,8 @@
-09:53:54.808 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\M Raj Kumar\eclipse-workspace\Opencart_Ecommerce_Project\master.xml"
-09:53:55.020 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\M Raj Kumar\eclipse-workspace\Opencart_Ecommerce_Project\master.xml
+12:18:03.020 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\M Raj Kumar\eclipse-workspace\Opencart_Ecommerce_Project\addtocarttestng.xml"
+12:18:03.495 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\M Raj Kumar\eclipse-workspace\Opencart_Ecommerce_Project\addtocarttestng.xml
 
-09:54:04.736 [main] INFO  testcases.Tc_002_LoginPage - Starting Login Test
+13:19:36.933 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\M Raj Kumar\eclipse-workspace\Opencart_Ecommerce_Project\addtocarttestng.xml"
+13:19:37.441 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\M Raj Kumar\eclipse-workspace\Opencart_Ecommerce_Project\addtocarttestng.xml
+
